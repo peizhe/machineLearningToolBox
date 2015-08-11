@@ -1,0 +1,43 @@
+<assembly>
+
+    <id>release</id>
+    <formats>
+        <format>tar.gz</format>
+    </formats>
+    <includeBaseDirectory>true</includeBaseDirectory>
+
+    <!--定义包装文件结构-->
+    <fileSets>
+        <fileSet>
+            <directory>bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>conf</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/data</directory>
+            <outputDirectory>data</outputDirectory>
+        </fileSet>
+
+        <fileSet>
+            <directory>logs</directory>
+            <outputDirectory>logs</outputDirectory>
+            <!--<execuldes>
+                <execlude>*.log</execlude>
+            </execuldes>-->
+        </fileSet>
+    </fileSets>
+
+    <!-- 将成序依赖的lib包输出到lib文件加中-->
+    <dependencySets>
+          <dependencySet>
+            <outputDirectory>lib</outputDirectory>
+              <useProjectArtifact>true</useProjectArtifact>
+          </dependencySet>
+    </dependencySets>
+</assembly>
