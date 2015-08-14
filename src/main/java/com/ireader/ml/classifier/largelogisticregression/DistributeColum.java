@@ -20,7 +20,7 @@ public class DistributeColum {
     /**
      *  Mapper ： 将一个特征向量分段后分发到不同的reducer
      * */
-    public static class DistributeColumMapper extends Mapper<LongWritable,Text,Text,WDataPoint> {
+    public static class DistributeColumMapper extends Mapper<LongWritable,Text,Text,Text> {
 
         private int slicelen = -1;
         private String filename = null;
@@ -44,6 +44,7 @@ public class DistributeColum {
             String rowkey_prefix = filename + ","+key.get();
 
             // 输入数据的格式是 ：  uid\tbid\tlabel\tweigth\tweigth\tweigth\tweigth\tweigth\tweigth\t
+            if (value.toString().split("\\s+").length < 4 ) return;
             DataPoint point = new DataPoint(value.toString());
 
             if (point.getFeatures() == null) return;
@@ -55,17 +56,19 @@ public class DistributeColum {
             for(int i = 0; i < features.size();i++) {
                 int index = i - slicenum * slicelen;     // sub-feature index
                 if(index < slicelen){
-                    slice.add(features.get(i));
+                    double cur_feat = features.get(i);
+                    slice.add(cur_feat);
                 }else{
                     // 注意到 这里的arraylist 用的是deepcopy  ， 长度满足sliceLen 就输出
                     WDataPoint  sub_dp = new WDataPoint(point.getUid(),point.getBid(),point.getLabel(),slice,0.0,slicenum);
 
-                    context.write(new Text(rowkey_prefix+"," + slicenum),sub_dp);
+                    context.write(new Text(rowkey_prefix+"," + slicenum),new Text(sub_dp.toString()));
 
                     // 降档前特征加入下一条子特征数组内
                     slicenum++;
                     slice.clear();   // 可以清空， 最底层实现了安置复制
-                    slice.add(features.get(index));  // 这时sub_index == 0
+                    double cur_feat = features.get(i);
+                    slice.add(cur_feat);  // 这时sub_index == 0
                 }
 
 
@@ -73,7 +76,7 @@ public class DistributeColum {
 
             if (slice.size()!=0) {
                    WDataPoint  sub_dp = new WDataPoint(point.getUid(),point.getBid(),point.getLabel(),slice,0.0,slicenum);
-                   context.write(new Text(rowkey_prefix + "+" + slicenum), sub_dp);
+                   context.write(new Text(rowkey_prefix + "," + slicenum), new Text(sub_dp.toString()));
                    slice.clear();   // 可以清空， 最底层实现了安置复制
                }
 

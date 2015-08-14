@@ -135,31 +135,36 @@ public class LargeLRDriver extends Trainer {
     @Override
     public boolean fit() throws IOException, InterruptedException, ClassNotFoundException {
 
+        FileSystem fs = FileSystem.get(conf);
+
+        if (!fs.isFile(new Path("/tmp/ELR"))) fs.mkdirs(new Path("/tmp/ELR"));
         int iteration = this.iter;
         boolean success = false;
         double rmse = Double.MAX_VALUE;
         weightHelper = new WeightHelper(conf,this.weightSavePath,this.featnum);
 
-        for (int i = 0; i <  iteration; i++) {
+        iteration = 1;   // 逐点测试标识
 
-            // 1. 生成随机初始权重
-            weightHelper.randomInitialWeight(this.featnum);
+        // 1. 生成随机初始权重
+        weightHelper.randomInitialWeight(this.featnum);
+
+        for (int i = 0; i <  iteration; i++) {
 
             // 2. 安指定的区间长度切割 特征向量 map job
             success = runJob(this.conf,
                     "split feat  columns job",
                     DistributeColum.class,
                     this.trainInputPath,
-                    "tmp/ELR/splitcolomn",
+                    "/tmp/ELR/splitcolomn",
                     DistributeColum.DistributeColumMapper.class,     // map
                     null,                                            // combine
                     null,                                            // reduce
                     null,                                            // part
                     Text.class,
-                    WDataPoint.class,
+                    Text.class,
                     null,
                     null,
-                    0,                                            // reduce num
+                    100,                                            // reduce num
                     false);                                         // is delete input
             if(!success) error("split feat  columns job",i);
 
@@ -167,88 +172,96 @@ public class LargeLRDriver extends Trainer {
             success |= runJob(conf,
                     "append feat and weight`s inner product job",
                     RowGradientCompute.class,
-                    "tmp/ELR/splitcolomn",
-                    "tmp/ELR/appendvectorinnerproduct",
+                    "/tmp/ELR/splitcolomn",
+                    "/tmp/ELR/appendvectorinnerproduct",
                     RowGradientCompute.RowGradientComputeMapper.class,
                     null,
                     RowGradientCompute.RowGradientComputeReducer.class,
                     null,
                     Text.class,
-                    WDataPoint.class,
+                    Text.class,
                     NullWritable.class,
-                    WDataPoint.class,
+                    Text.class,
                     100,
                     KeyValueTextInputFormat.class,                        // inputformat.class
                     true);
             if(!success) error("append feat and weight`s inner product job",i);
 
             // 4. 更新 权重  mapred job
-            success |= runJob(conf,
-                    "update model weights job",
-                    UpdateWeight.class,
-                    "tmp/ELR/appendvectorinnerproduct",
-                    "tmp/ELR/newWeights",
-                    UpdateWeight.UpdateWeightMapper.class,
-                    UpdateWeight.UpdateWeightCombiner.class,
-                    UpdateWeight.UpdateWeightReducer.class,
-                    null,
-                    NullWritable.class,
-                    WDataPoint.class,
-                    IntWritable.class,
-                    DoubleWritable.class,
-                    1,
-                    KeyValueTextInputFormat.class,                          // inputformat.class
-                    true);
-
-            if(!success) error("update model weights job",i);
+//            success |= runJob(conf,
+//                    "update model weights job",
+//                    UpdateWeight.class,
+//                    "/tmp/ELR/appendvectorinnerproduct",
+//                    "/tmp/ELR/newWeights",
+//                    UpdateWeight.UpdateWeightMapper.class,
+//                    UpdateWeight.UpdateWeightCombiner.class,
+//                    UpdateWeight.UpdateWeightReducer.class,
+//                    null,
+//                    NullWritable.class,
+//                    Text.class,
+//                    IntWritable.class,
+//                    DoubleWritable.class,
+//                    1,
+//                    KeyValueTextInputFormat.class,                          // inputformat.class
+//                    true);
+//
+//            if(!success) error("update model weights job",i);
             // 5. 暂存旧的权重
-            ArrayList<Double> oldWeightList = weightHelper.readNewWeights("tmp/ELR/newWeights");
+//            ArrayList<Double> oldWeightList = weightHelper.readNewWeights("tmp/ELR/newWeights");
+
+            // 测试hdfs 读取
+
+//            ArrayList<String> oldWeightList = readFromHdfs(this.weightSavePath);
+//            System.out.println(this.weightSavePath);
+//            System.out.println("read weight from hdfs");
+//            System.out.println(oldWeightList.toString());
 
             // 6. 将新权重存储到 hdfs
-            weightHelper.updateWeights("tmp/ELR/newWeights");
+//            weightHelper.updateWeights("tmp/ELR/newWeights");
 
             // 7. 如果满足指定的 step 间隔 计算 rsme 并与上次进行比较 如果小于一定的值则停机 并输出就权重到权重文件，否则继续循环
-            if(((i / this.validateStep) != 0) && i!=0) {
-
-                success |= runJob(conf,
-                        "rmse compute job",
-                        CostFunc.class,
-                        this.trainInputPath,
-                        "tmp/ELR/rsme",
-                        CostFunc.CostFuncMapper.class,
-                        CostFunc.CostFuncCombiner.class,
-                        CostFunc.CostFuncReducer.class,
-                        null,
-                        LongWritable.class,
-                        Text.class,
-                        NullWritable.class,
-                        DoubleWritable.class,
-                        1,
-                        false);
-                if(!success) error("rmse compute job",i);
-
-                // 读取 rsme 计算结果
-                ArrayList<String> resList = readFromHdfs("tmp/ELR/rsme");
-                if(resList.size() != 0) {
-                    String line = resList.get(0).trim();
-
-                    double curRmse = Double.parseDouble(line);
-                    if ( rmse < curRmse){
-                        rmse = curRmse;
-                    }
-                    if(Math.abs(rmse - curRmse) < this.threshold)
-                        break;
-
-                }
-                if(success)
-                    System.out.println("LR model validate at iteration " + i + " , rmse is" + rmse);
-            }
+//            if(((i / this.validateStep) != 0) && i!=0) {
+//
+//                success |= runJob(conf,
+//                        "rmse compute job",
+//                        CostFunc.class,
+//                        this.trainInputPath,
+//                        "/tmp/ELR/rsme",
+//                        CostFunc.CostFuncMapper.class,
+//                        CostFunc.CostFuncCombiner.class,
+//                        CostFunc.CostFuncReducer.class,
+//                        null,
+//                        LongWritable.class,
+//                        Text.class,
+//                        NullWritable.class,
+//                        DoubleWritable.class,
+//                        1,
+//                        false);
+//                if(!success) error("rmse compute job",i);
+//
+//                // 读取 rsme 计算结果
+//                ArrayList<String> resList = readFromHdfs("tmp/ELR/rsme");
+//                if(resList.size() != 0) {
+//                    String line = resList.get(0).trim();
+//
+//                    double curRmse = Double.parseDouble(line);
+//                    if ( rmse < curRmse){
+//                        rmse = curRmse;
+//                    }
+//                    if(Math.abs(rmse - curRmse) < this.threshold)
+//                        break;
+//
+//                }
+//                if(success)
+//                    System.out.println("LR model validate at iteration " + i + " , rmse is" + rmse);
+//            }
 
         }    // for end
 
-        if (success)
-            System.out.println("LR modol training finished! with rmse : " + rmse);
+//        if (success)
+//            System.out.println("LR modol training finished! with rmse : " + rmse);
 
+//        fs.deleteOnExit(new Path("/tmp/ELR"));
         return success;
     }
 
@@ -311,6 +324,23 @@ public class LargeLRDriver extends Trainer {
                 br.close();
                 fsi.close();
             }
+        }else if(fs.isFile(srcDir)) {
+            fsi = fs.open(srcDir);
+            br = new BufferedReader(new InputStreamReader(fsi,"utf-8"));
+            String line  = null;
+            System.out.println(srcDir.getName());
+
+
+//            System.out.println("读取全部的内容：");
+//            IOUtils.copyBytes(fsi,System.out,conf);
+
+            while((line = br.readLine()) != null) {
+                System.out.println(line);
+                resList.add(line.trim());
+            }
+
+            fsi.close();
+            br.close();
         }
 
         return resList;
@@ -362,7 +392,7 @@ public class LargeLRDriver extends Trainer {
                     .setTrainOutputPath(config.getString("LLR_TrainOutputPath",""))
                     .setWeightSavePath(config.getString("LLR_WeightSavePath", ""))
                     .setIter(config.getInt("LLR_Iter", 20))
-                    .setFeatNum(config.getInt("LLR_FeatNum",20))
+                    .setFeatNum(config.getInt("LLR_FeatNum",0))
                     .setSlicelength(config.getInt("LLR_SliceLeangth",10))
                     .setLearnRate(config.getDouble("LLR_LearnRate",0.0001))
                     .setRegType(config.getString("LLR_RegType","L2"))

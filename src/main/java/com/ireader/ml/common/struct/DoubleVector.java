@@ -19,7 +19,7 @@ public class DoubleVector implements Writable {
     }
 
     public DoubleVector(String line) {
-        String[] valueString = line.split("\t");
+        String[] valueString = line.split("\\s+");
         value = new ArrayList<Double>();
 
         for (int i = 0; i < valueString.length;i++) {
@@ -30,7 +30,7 @@ public class DoubleVector implements Writable {
     // deep copy
     public DoubleVector(ArrayList<Double> feats) {
         this.value = new ArrayList<Double>();
-        for(int i = 0 ; i < value.size(); i++){
+        for(int i = 0 ; i < feats.size(); i++){
             double tempfeat = feats.get(i);
             this.value.add(tempfeat);
         }
@@ -166,5 +166,25 @@ public class DoubleVector implements Writable {
             sb.append(((i==0)?"":"\t") + value.get(i));
         }
         return sb.toString();
+    }
+
+
+
+    public static void main(String[] args) {
+        ArrayList<Double> feats = new ArrayList<Double>();
+
+        feats.add(1.0);
+        feats.add(2.0);
+        feats.add(3.0);
+        feats.add(4.0);
+        feats.add(5.0);
+        feats.add(6.0);
+
+        DoubleVector dvec =  new DoubleVector(feats);
+
+//        feats.clear();
+
+        System.out.println(dvec.value.toString());
+        System.out.println(dvec.toString());
     }
 }

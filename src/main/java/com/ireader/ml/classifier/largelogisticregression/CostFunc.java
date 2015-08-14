@@ -62,6 +62,9 @@ public class CostFunc {
                 weightvec = new DoubleVector(weights);
             }
 
+            in.close();
+            fsi.close();
+
 
         }
 
@@ -70,6 +73,8 @@ public class CostFunc {
         public void map(LongWritable key,Text value,Context context) throws IOException,InterruptedException{
 
             String curline = value.toString();
+
+            if(curline.split("\\s+").length < 4) return;
 
             DataPoint dp = new DataPoint(curline);
 

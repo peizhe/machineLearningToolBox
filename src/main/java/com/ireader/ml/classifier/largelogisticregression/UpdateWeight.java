@@ -28,11 +28,12 @@ import java.util.ArrayList;
  */
 public class UpdateWeight {
 
-    public static class UpdateWeightMapper extends Mapper<NullWritable,WDataPoint,IntWritable,Text> {
+    public static class UpdateWeightMapper extends Mapper<NullWritable,Text,IntWritable,Text> {
 
         @Override
-        public void  map(NullWritable key, WDataPoint value,Context context) throws IOException,InterruptedException{
+        public void  map(NullWritable key, Text val,Context context) throws IOException,InterruptedException{
 
+            WDataPoint value = new WDataPoint(val.toString());
             double product = value.getWeight();
             double label = value.getSub_dp().getLabel();
 
@@ -107,6 +108,9 @@ public class UpdateWeight {
                     }
                 }
             }
+
+            in.close();
+            fsi.close();
         }
 
         @Override

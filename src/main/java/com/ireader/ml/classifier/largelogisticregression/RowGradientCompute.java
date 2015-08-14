@@ -27,7 +27,7 @@ import java.util.Map;
  */
 public class RowGradientCompute {
 
-    public static class RowGradientComputeMapper extends Mapper<Text,WDataPoint,Text,WDataPoint>{
+    public static class RowGradientComputeMapper extends Mapper<Text,Text,Text,Text>{
 
         private int slicelen = -1;
         private int  featnum = -1;
@@ -89,7 +89,7 @@ public class RowGradientCompute {
         }
 
         @Override
-        protected void map(Text key,WDataPoint value, Context context)
+        protected void map(Text key,Text value, Context context)
                                                    throws IOException,InterruptedException{
 
             String[] keypair = key.toString().trim().split(",");
@@ -98,14 +98,16 @@ public class RowGradientCompute {
 
             DoubleVector weigthselice = weightdict.get(colnum);   // 取出当前分片对应的权重分片
 
-            DoubleVector sub_feat = value.getSub_dp().getFeatures();
+            WDataPoint wdp = new WDataPoint(value.toString());
+
+            DoubleVector sub_feat = wdp.getSub_dp().getFeatures();
 
             double product = sub_feat.innerMul(weigthselice);
 
             // DataPoint sub_dp,Double weight, Integer col
-            WDataPoint out = new WDataPoint(value.getSub_dp(),product,value.getCol());
+            WDataPoint out = new WDataPoint(wdp.getSub_dp(),product,wdp.getCol());
 
-            context.write(new Text(rowID),out);
+            context.write(new Text(rowID),new Text(out.toString()));
 
         }
 
@@ -128,9 +130,10 @@ public class RowGradientCompute {
     }
 
 
-    public static class RowGradientComputeReducer extends Reducer<Text,WDataPoint,NullWritable,WDataPoint> {
+    public static class RowGradientComputeReducer extends Reducer<Text,Text,NullWritable,Text> {
 
-        protected void reduce(Text key,Iterable<WDataPoint> values,Reducer.Context context)
+        @Override
+        protected void reduce(Text key,Iterable<Text> values,Context context)
                                                         throws IOException, InterruptedException{
 
             ArrayList<Double> tempList = new ArrayList<Double>();
@@ -146,7 +149,8 @@ public class RowGradientCompute {
             String bid = null;
             double label = 0.0;
 
-            for(WDataPoint dp: values) {
+            for(Text val: values) {
+                WDataPoint dp = new WDataPoint(val.toString());
                 uid = dp.getSub_dp().getUid();
                 bid = dp.getSub_dp().getBid();
                 label = dp.getSub_dp().getLabel();
@@ -162,7 +166,7 @@ public class RowGradientCompute {
             // String uid,String bid,Double label, ArrayList<Double> feats,Double weight, Integer col
             WDataPoint outdp = new WDataPoint(uid,bid,label,tempList,product,-1 );
 
-            context.write(key, outdp);
+            context.write(NullWritable.get(), new Text(outdp.toString()));
         }
     }
 

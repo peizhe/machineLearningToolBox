@@ -200,28 +200,24 @@ public  abstract class Driver {
         }
         if(NumberReduceTasks != null){
             job.setNumReduceTasks(NumberReduceTasks);
-        } else if (reduceClass != null) {
-            job.setNumReduceTasks(10);   // 默认10个
-        } else {
-            job.setNumReduceTasks(0);   // 没有reduce
         }
+//        else if (reduceClass != null) {
+//            job.setNumReduceTasks(10);   // 默认10个
+//        }
+//        else {
+//            job.setNumReduceTasks(0);   // 没有reduce
+//        }
 
         job.setMapOutputKeyClass(mapkeyClass);
-        job.setOutputValueClass(mapValClass);
+        job.setMapOutputValueClass(mapValClass);
 
 
         if(outputKeyClass != null) job.setOutputKeyClass(outputKeyClass);
-        if(outputKeyClass != null) job.setOutputValueClass(outputKeyClass);
+        if(outputKeyClass != null) job.setOutputValueClass(OutputValClass);
 
         FileInputFormat.setInputPaths(job, input);
         FileOutputFormat.setOutputPath(job, out);
 
-//        boolean success = job.waitForCompletion(true);
-//
-//        if(isDeleteInputPath)
-//            fs.delete(new Path(inputPath));
-//
-//        return success;
 
         return job;
     }

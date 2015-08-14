@@ -18,17 +18,28 @@ public class WDataPoint implements Writable {
     private Double weight = null;
     private Integer col = null;
 
+    public WDataPoint(){
+
+    }
+
     public WDataPoint(DataPoint sub_dp,Double weight, Integer col){
-        this.sub_dp = sub_dp;
-        this.weight = weight;
         this.col = col;
+        this.weight = weight;
+        this.sub_dp = sub_dp;
     }
 
     public WDataPoint(String uid,String bid,Double label, ArrayList<Double> feats,Double weight, Integer col) {
 
-        this.weight = weight;
         this.col = col;
+        this.weight = weight;
         this.sub_dp = new DataPoint(uid,bid,label,feats);
+    }
+
+    public WDataPoint(String line){
+        String[] fields = line.split("\\s+",3);
+        this.col = Integer.parseInt(fields[0]);
+        this.weight  = Double.parseDouble(fields[1]);
+        this.sub_dp = new DataPoint(fields[2]);
     }
 
     @Override

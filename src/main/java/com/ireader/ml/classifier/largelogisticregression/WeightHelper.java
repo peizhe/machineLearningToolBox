@@ -1,5 +1,6 @@
 package com.ireader.ml.classifier.largelogisticregression;
 
+import com.ireader.ml.conf.Config;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
 
@@ -80,6 +81,8 @@ public class WeightHelper {
         fso = fs.create(path);
 
         fso.write((stringFormat(weights) + "\n").getBytes());
+
+        fso.close();
 
     }
 
@@ -187,7 +190,8 @@ public class WeightHelper {
 
     public static void main(String[] args) {
         WeightHelper  whelper = new WeightHelper();
-        whelper.randomInitial(40);
+//        Config config = new Config();
+//        whelper.randomInitial();
 
         ArrayList<Double> ws  = whelper.weights;
 
