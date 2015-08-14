@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884adce1-1e02-4aa6-9952-a3d53c0f4c86" name="Default" comment="first commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncCombiner.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncCombiner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncReducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DataPoint.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DataPoint.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/DistributeColum$DistributeColumMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/DistributeColum$DistributeColumMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DoubleVector.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DoubleVector.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/Driver.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LRpredictor$LRpredictorMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LRpredictor$LRpredictorMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeReducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightCombiner.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightCombiner.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightReducer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WDataPoint.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WDataPoint.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WeightHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WeightHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT-release.tar.gz" afterPath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT-release.tar.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DataPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DataPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDataPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDataPoint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/model.properties" afterPath="$PROJECT_DIR$/resources/model.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -61,108 +41,11 @@
       <file leaf-file-name="LargeLRDriver.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9883527">
-              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.3253012">
+              <caret line="252" column="42" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RowGradientCompute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DistributeColum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#695#696#0" expanded="false" />
-                <element signature="e#744#745#0" expanded="false" />
-                <element signature="e#784#785#0" expanded="false" />
-                <element signature="e#826#827#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/model.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateWeight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRpredictor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DoubleVector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="100" column="81" selection-start-line="100" selection-start-column="81" selection-end-line="100" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#342#343#0" expanded="false" />
-                <element signature="e#389#390#0" expanded="false" />
-                <element signature="e#1372#1373#0" expanded="false" />
-                <element signature="e#1400#1401#0" expanded="false" />
+                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,9 +56,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/model.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -243,14 +134,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DataPoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" />
-        <option value="$PROJECT_DIR$/resources/model.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" />
+        <option value="$PROJECT_DIR$/resources/model.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" />
       </list>
     </option>
   </component>
@@ -280,9 +171,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="144" />
+    <option name="y" value="34" />
+    <option name="width" value="1221" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1368,32 +1260,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <frame x="144" y="34" width="1221" height="743" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2479757" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1762481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24054463" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2479757" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21240442" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22769754" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16082802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327451" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26455906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30802292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1510,6 +1402,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1538,6 +1433,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1612,6 +1512,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
+            <element signature="e#805#806#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1713,68 +1618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#744#745#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/model.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1792,29 +1636,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#2612#2620#0" expanded="true" />
+            <element signature="e#3657#3665#0" expanded="true" />
+            <element signature="e#3729#3745#0" expanded="true" />
+            <element signature="e#5194#5202#0" expanded="true" />
+            <element signature="e#5266#5282#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="92" selection-start-line="52" selection-start-column="92" selection-end-line="52" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/model.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9883527">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.3253012">
+          <caret line="252" column="42" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
+          <folding>
+            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1896,10 +1799,10 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="package" />
+    <option value="compile" />
     <option value="package -e" />
     <option value="clean" />
     <option value="pacakge" />
-    <option value="compile" />
-    <option value="package" />
   </component>
 </project>

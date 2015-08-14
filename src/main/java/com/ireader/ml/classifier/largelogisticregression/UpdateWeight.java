@@ -6,10 +6,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.DoubleWritable;
-import org.apache.hadoop.io.IntWritable;
-import org.apache.hadoop.io.NullWritable;
-import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.*;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
 
@@ -28,10 +25,10 @@ import java.util.ArrayList;
  */
 public class UpdateWeight {
 
-    public static class UpdateWeightMapper extends Mapper<NullWritable,Text,IntWritable,Text> {
+    public static class UpdateWeightMapper extends Mapper<LongWritable,Text,IntWritable,Text> {
 
         @Override
-        public void  map(NullWritable key, Text val,Context context) throws IOException,InterruptedException{
+        public void  map(LongWritable key, Text val,Context context) throws IOException,InterruptedException{
 
             WDataPoint value = new WDataPoint(val.toString());
             double product = value.getWeight();
@@ -42,7 +39,7 @@ public class UpdateWeight {
 
             for (int i = 0 ; i < value.getFeat().size(); i++){
                 double gradval= factor * value.getFeat().get(i);
-                context.write(new IntWritable(i), new Text(String.valueOf(gradval)));
+                context.write(new IntWritable(i), new Text(String.valueOf(gradval) + ",1"));
             }
 
         }
@@ -59,8 +56,12 @@ public class UpdateWeight {
             double num = 0;
             double sum = 0.0;
             for (Text val: values ) {
-                sum += Double.parseDouble(val.toString());
-                num++;
+                try {
+                    sum += Double.parseDouble(val.toString().split(",")[0]);
+                }catch(NumberFormatException ne){
+                    throw new IOException("current VALUE is : " +val.toString());
+                }
+                    num+= Double.parseDouble(val.toString().split(",")[1]);
             }
 
             context.write(key, new Text((sum/num) + "," + num));

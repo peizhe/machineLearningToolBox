@@ -49,8 +49,8 @@ public class LRpredictor {
                 in  = new BufferedReader(new InputStreamReader(fsi,"utf-8"));
 
                 while((line = in.readLine()) != null) {
-                    if(!(featnum == StringUtil.StringToList(weights, line.trim(), "\t"))){
-                        throw new IOException("load weights number and featnum is not same!");
+                    if(!(featnum == StringUtil.StringToList(weights, line.trim(), "\\s+"))){
+                        throw new IOException("load weights number and featnum is not same! " );
                     }
                 }
 

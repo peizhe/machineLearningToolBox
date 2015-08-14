@@ -99,12 +99,44 @@ public class WeightHelper {
 
         fso = fs.create(destFile);
 
-        fso.write((stringFormat(weights).toString()+"\n").getBytes());
+        fso.write((stringFormat(weights).toString() + "\n").getBytes());
 
 
         fso.close();
 
     }
+
+
+
+    //
+    public ArrayList<Double> readWeights(String src) throws IOException {
+        ArrayList<Double> resList =  new ArrayList<Double>();
+        Path srcDir = new Path(src);
+
+        FileSystem fs = FileSystem.get(this.conf);
+        FSDataInputStream fsi = null;
+        BufferedReader br = null;
+
+            FileStatus[] fileStatuses = fs.listStatus(srcDir);
+            for(FileStatus file : fileStatuses) {
+                if(fs.isFile(file.getPath())){
+                    fsi = fs.open(file.getPath());
+                    br = new BufferedReader(new InputStreamReader(fsi,"utf-8"));
+                    String line = null;
+                    while((line = br.readLine()) != null) {
+                        String[] fields = line.trim().split("\\s+");
+                        resList.add(Double.parseDouble(fields[1]));
+                    }
+                }
+                br.close();
+                fsi.close();
+            }
+
+        return resList;
+    }
+
+
+
 
     // 从结果文件夹中读取 权重文件
     public ArrayList<Double> readNewWeights(String srcdir) throws IOException {
@@ -124,24 +156,83 @@ public class WeightHelper {
 
 
         // 读取权重跟新结果
-        for(int i = 0 ; i < fileList.length; i++) {
-            if(!fileList[i].isDirectory()) {
-                fsi = fs.open(fileList[i].getPath());
+        int index = 0;
+//        for(int i = 0 ; i < fileList.length; i++) {
+//            if(!fileList[i].isDirectory()) {
+//                fsi = fs.open(fileList[i].getPath());
+        fsi = fs.open(srcDir);
                 br = new BufferedReader(new InputStreamReader(fsi,"UTF-8"));
 
                 while((line  = br.readLine().trim()) != null) {
 
-                    String[] fields = line.split("\t");
+                    String[] fields = line.split("\\s+");
 
-                    int colnum = Integer.parseInt(fields[0]);
-                    double weight = Double.parseDouble(fields[1]);
+                    int colnum ;
+                    double weight = 0.0;
+
+                    colnum = Integer.parseInt(fields[0]);
+                    weight = Double.parseDouble(fields[1]);
+
 
                     newWeightdict.put(colnum,weight);
                 }
-            }
+//            }
             br.close();
             fsi.close();
+//        }
+
+        if(newWeightdict.size() != this.k) {
+            throw new IOException("权重向量长度不为" + this.k);
         }
+
+        for(int i = 0 ; i < this.k;i++) {
+
+            double wval = newWeightdict.get(i);
+
+            newWeights.add(wval);
+        }
+
+        return newWeights;
+
+    }
+
+    public ArrayList<Double> readLastWeights(String srcdir) throws IOException {
+
+        Path srcDir = new Path(srcdir);
+
+        ArrayList<Double> newWeights = new ArrayList<Double>();
+        HashMap<Integer, Double> newWeightdict = new HashMap<Integer,Double>();
+
+
+        FileSystem fs = FileSystem.get(conf);
+//        FileStatus[] fileList = fs.listStatus(srcDir);
+
+        BufferedReader br = null;
+        FSDataInputStream fsi = null;
+        String line = null;
+
+
+        // 读取权重跟新结果
+        int index = 0;
+
+        fsi = fs.open(new Path(srcdir));
+        br = new BufferedReader(new InputStreamReader(fsi,"UTF-8"));
+
+        if((line  = br.readLine().trim()) != null) {
+
+             String[] fields = line.split("\\s+");
+
+
+
+            for(int i = 0 ; i < fields.length; i++) {
+               double weight = Double.parseDouble(fields[i]);
+                        newWeightdict.put(i, weight);
+            }
+        }
+
+        br.close();
+        fsi.close();
+
 
         if(newWeightdict.size() != this.k) {
             throw new IOException("权重向量长度不为" + this.k);
@@ -160,14 +251,14 @@ public class WeightHelper {
 
 
 
-
     // 从HDFS中读取权重跟新结果， 并写入权重文件中
     public void updateWeights(String srcdir) throws IOException {
 
         ArrayList<Double> newWeights = null;
 
         // 读取新权重
-        newWeights =  readNewWeights(srcdir);
+//        newWeights =  readNewWeights(srcdir);
+        newWeights=readWeights(srcdir);
         //
         saveWeights(newWeights);
 

@@ -23,6 +23,7 @@ public class LargeLRDriver extends Trainer {
 
     private Configuration conf = null;
     private WeightHelper weightHelper = null;        // 参数管理器
+    private double RGDprob=1.0;                      // 采样比例     （还没实现， 用于模拟随机批量梯度下降 ，以增快模型训练速度）
     private int iter = -1;                           // 训练循环次数
     private int featnum = -1;                        // model 样本特征个数
     private int slicelength = -1;                    // 划分每个work计算的feat 个数
@@ -143,12 +144,16 @@ public class LargeLRDriver extends Trainer {
         double rmse = Double.MAX_VALUE;
         weightHelper = new WeightHelper(conf,this.weightSavePath,this.featnum);
 
-        iteration = 1;   // 逐点测试标识
+//        iteration = 1;   // 逐点测试标识
 
         // 1. 生成随机初始权重
         weightHelper.randomInitialWeight(this.featnum);
 
         for (int i = 0; i <  iteration; i++) {
+
+            System.out.println("====================================================================");
+            System.out.println("current is " + i + " iteration ");
+            System.out.println("====================================================================");
 
             // 2. 安指定的区间长度切割 特征向量 map job
             success = runJob(this.conf,
@@ -178,6 +183,7 @@ public class LargeLRDriver extends Trainer {
                     null,
                     RowGradientCompute.RowGradientComputeReducer.class,
                     null,
+
                     Text.class,
                     Text.class,
                     NullWritable.class,
@@ -188,78 +194,91 @@ public class LargeLRDriver extends Trainer {
             if(!success) error("append feat and weight`s inner product job",i);
 
             // 4. 更新 权重  mapred job
-//            success |= runJob(conf,
-//                    "update model weights job",
-//                    UpdateWeight.class,
-//                    "/tmp/ELR/appendvectorinnerproduct",
-//                    "/tmp/ELR/newWeights",
-//                    UpdateWeight.UpdateWeightMapper.class,
-//                    UpdateWeight.UpdateWeightCombiner.class,
-//                    UpdateWeight.UpdateWeightReducer.class,
-//                    null,
-//                    NullWritable.class,
-//                    Text.class,
-//                    IntWritable.class,
-//                    DoubleWritable.class,
-//                    1,
-//                    KeyValueTextInputFormat.class,                          // inputformat.class
-//                    true);
-//
-//            if(!success) error("update model weights job",i);
+            success |= runJob(conf,
+                    "update model weights job",
+                    UpdateWeight.class,
+                    "/tmp/ELR/appendvectorinnerproduct",
+                    "/tmp/ELR/newWeights",
+                    UpdateWeight.UpdateWeightMapper.class,
+                    UpdateWeight.UpdateWeightCombiner.class,
+                    UpdateWeight.UpdateWeightReducer.class,
+                    null,
+                    IntWritable.class,
+                    Text.class,
+                    IntWritable.class,
+                    DoubleWritable.class,
+                    1,
+                    true);   // true
+
+            if(!success) error("update model weights job",i);
             // 5. 暂存旧的权重
-//            ArrayList<Double> oldWeightList = weightHelper.readNewWeights("tmp/ELR/newWeights");
+            ArrayList<Double> oldWeightList = weightHelper.readLastWeights(this.weightSavePath);
+
+//            System.out.println("old weightList is :" + oldWeightList.toString());
+
 
             // 测试hdfs 读取
 
-//            ArrayList<String> oldWeightList = readFromHdfs(this.weightSavePath);
-//            System.out.println(this.weightSavePath);
+//            ArrayList<String> retWeightList = readFromHdfs("/tmp/ELR/newWeights");
+//            System.out.println("/tmp/ELR/newWeights");
 //            System.out.println("read weight from hdfs");
-//            System.out.println(oldWeightList.toString());
+//            System.out.println(retWeightList.toString());
 
             // 6. 将新权重存储到 hdfs
-//            weightHelper.updateWeights("tmp/ELR/newWeights");
+            weightHelper.updateWeights("/tmp/ELR/newWeights/part-r-00000");
+
+            // 测试 更新后的权重
+
+//            ArrayList<String> updateWeightList = readFromHdfs(this.weightSavePath);
+//            System.out.println(this.weightSavePath);
+//            System.out.println("read weight from hdfs");
+//            System.out.println(updateWeightList.toString());
 
             // 7. 如果满足指定的 step 间隔 计算 rsme 并与上次进行比较 如果小于一定的值则停机 并输出就权重到权重文件，否则继续循环
-//            if(((i / this.validateStep) != 0) && i!=0) {
-//
-//                success |= runJob(conf,
-//                        "rmse compute job",
-//                        CostFunc.class,
-//                        this.trainInputPath,
-//                        "/tmp/ELR/rsme",
-//                        CostFunc.CostFuncMapper.class,
-//                        CostFunc.CostFuncCombiner.class,
-//                        CostFunc.CostFuncReducer.class,
-//                        null,
-//                        LongWritable.class,
-//                        Text.class,
-//                        NullWritable.class,
-//                        DoubleWritable.class,
-//                        1,
-//                        false);
-//                if(!success) error("rmse compute job",i);
-//
-//                // 读取 rsme 计算结果
-//                ArrayList<String> resList = readFromHdfs("tmp/ELR/rsme");
-//                if(resList.size() != 0) {
-//                    String line = resList.get(0).trim();
-//
-//                    double curRmse = Double.parseDouble(line);
-//                    if ( rmse < curRmse){
-//                        rmse = curRmse;
-//                    }
-//                    if(Math.abs(rmse - curRmse) < this.threshold)
-//                        break;
-//
-//                }
-//                if(success)
-//                    System.out.println("LR model validate at iteration " + i + " , rmse is" + rmse);
-//            }
+            if(((i % this.validateStep) == 0) && i!=0) {
+
+                System.out.println("-------------------------------------------------------------");
+                System.out.println("Execute an cost validation ");
+                System.out.println("-------------------------------------------------------------");
+
+                success |= runJob(conf,
+                        "rmse compute job",
+                        CostFunc.class,
+                        this.trainInputPath,
+                        "/tmp/ELR/rsme",
+                        CostFunc.CostFuncMapper.class,
+                        CostFunc.CostFuncCombiner.class,
+                        CostFunc.CostFuncReducer.class,
+                        null,
+                        IntWritable.class,
+                        Text.class,
+                        NullWritable.class,
+                        DoubleWritable.class,
+                        1,
+                        false);
+                if(!success) error("rmse compute job",i);
+
+                // 读取 rsme 计算结果
+                ArrayList<String> resList = readFromHdfs("tmp/ELR/rsme");
+                if(resList.size() != 0) {
+                    String line = resList.get(0).trim();
+
+                    double curRmse = Double.parseDouble(line);
+                    if ( rmse < curRmse){
+                        rmse = curRmse;
+                    }
+                    if(Math.abs(rmse - curRmse) < this.threshold)
+                        break;
+
+                }
+                if(success)
+                    System.out.println("LR model validate at iteration " + i + " , rmse is" + rmse);
+            } // if
 
         }    // for end
 
-//        if (success)
-//            System.out.println("LR modol training finished! with rmse : " + rmse);
+        if (success)
+            System.out.println("LR modol training finished! with rmse : " + rmse);
 
 //        fs.deleteOnExit(new Path("/tmp/ELR"));
         return success;
@@ -280,11 +299,11 @@ public class LargeLRDriver extends Trainer {
                 null,
                 null,
                 null,
-                LongWritable.class,
-                Text.class,
                 Text.class,
                 DoubleWritable.class,
-                0,
+                Text.class,
+                DoubleWritable.class,
+                100,
                 false);
 
         if(!success) {
@@ -414,6 +433,7 @@ public class LargeLRDriver extends Trainer {
         }else{
             Trainer driver = new LargeLRDriver().setPredictInputPath(config.getString("LLR_PredictInputPath",""))
                             .setPredictOutputPath(config.getString("LLR_PredictOutputPath",""))
+                            .setFeatNum(config.getInt("LLR_FeatNum",-1))
                             .setWeightSavePath(config.getString("LLR_WeightSavePath",""));
             try {
 
