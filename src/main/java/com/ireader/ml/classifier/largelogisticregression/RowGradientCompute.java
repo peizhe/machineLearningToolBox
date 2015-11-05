@@ -1,7 +1,7 @@
 package com.ireader.ml.classifier.largelogisticregression;
 
 import com.ireader.ml.common.struct.DoubleVector;
-import com.ireader.ml.common.util.StringUtil;
+import com.ireader.util.StringUtil;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
@@ -104,7 +104,7 @@ public class RowGradientCompute {
 
             double product = sub_feat.innerMul(weigthselice);
 
-            // DataPoint sub_dp,Double weight, Integer col
+            // ADataPoint sub_dp,Double weight, Integer col
             WDataPoint out = new WDataPoint(wdp.getSub_dp(),product,wdp.getCol());
 
             context.write(new Text(rowID),new Text(out.toString()));

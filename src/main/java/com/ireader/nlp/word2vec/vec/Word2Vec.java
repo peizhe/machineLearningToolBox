@@ -1,8 +1,7 @@
 package com.ireader.nlp.word2vec.vec;
 
 import com.ireader.nlp.word2vec.util.*;
-import org.apache.commons.lang.ObjectUtils;
-import org.tukaani.xz.simple.ARMThumb;
+import com.ireader.util.LineIterator;
 
 import java.io.*;
 import java.util.*;

@@ -168,6 +168,18 @@ public class DoubleVector implements Writable {
         return sb.toString();
     }
 
+    public double[] getValArr(){
+
+        int size = value.size();
+        double[] retArr = new double[size];
+
+        for (int i = 0 ; i < size; i++) {
+            retArr[i] = value.get(i);
+        }
+
+        return retArr;
+    }
+
 
 
     public static void main(String[] args) {

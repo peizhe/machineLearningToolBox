@@ -2,19 +2,265 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884adce1-1e02-4aa6-9952-a3d53c0f4c86" name="Default" comment="first commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jieba-analysis-1.0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/match/ACTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/ant/tsp/AOC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/Activation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/match/AhoCorasickDoubleArrayTrie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/ant/tsp/Ant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ArrayInitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/AssociationRules.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/BatchOptimizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/nqueens/Board.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/local/ByteArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/ByteUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/CNN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNNLocalDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/rnn/LSTM/Cell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/rnn/CharText.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjust.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustMR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustPredict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustTrain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/ConcurenceRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/ConcurenceRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/conjugate/ConjugateGrad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/Cost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/lbfgs/CostFunc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/DC_FPTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/DNN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/DOMUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DTPredict.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/Dataset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/Dataset.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DecisionTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/lda/Documents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/index/DoubleArrayTrie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/svd/DuJaccobi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/EGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Ensemble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/FPTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/FeatureMaxMin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/local/FolderWalker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/FutureTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/GBDT.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/lbfgs/GradFunc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Gradient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/GradientFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/GraphUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/Heap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/HiddenLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/HiddenLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/HiddenLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/hmm/local/HmmInference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/hmm/local/HmmLearn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/HyperTangentFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/local/ICacheAble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/local/IOUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/writable/IndexPair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/writable/Key.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/costfunc/LRCostFunc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/LRDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/gradient/LRGradFunc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/LRGradient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/LambdaRank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/Layer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/Layer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/Layer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/lbfgs/Lbfgs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/lda/LdaModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/ListNet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/Log.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/LogiFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/LogisticRegressionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/LossFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/MLP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/MLP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/MatMulDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/MatrixMultiply.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/MatrixRandTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/MatrixTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/MoreIterations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/MultiFutureTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/MultiTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/util/NDCGScorer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/nqueens/NQueens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/Neuron.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/NodeStaticInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/OutputLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/svd/Power.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/PropParameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/svd/QR.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/nqueens/Queen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/RBM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/RankNet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/Record.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Rule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/RunCNN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/sssp/SSSP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SigmodLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SoftMaxLayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/SoftmaxTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/match/State.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/StatisticRecord.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/SubIndexPartitioner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/TestArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Impl/testfunc/TestCost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Impl/testfunc/TestGrad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/hmm/TestHmmLearn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/TextUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/TimedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/TransferFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/bfs/TraverseGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/bintree/Tree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/TreeNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/triangle/TriangleRecommender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/UpdateLabel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/UpdatorFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/writable/Value.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/Vector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/VertexState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/XmlTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/app.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/app.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/arrayGenericTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/hmm/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/bfs/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/ant/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/intelligentOpt/nqueens/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Impl/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/conjugate/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/index/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/tool/match/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Impl/testJieba.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ireader/ml/utils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/App.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/HyperTangentFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/LogitFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/Neuron.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/PropParameter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/RankNet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/TransferFunction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/C4_5Driver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/DecisionTreeMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/NodeStatisticInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/Rule.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/StatisticRecord.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/optimize/LBFGS.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Grident.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/ireader/AppTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/Ranker.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/dto/DataPoint.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/dto/RankList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/HyperTangentFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/Layer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/ListNeuron.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/LogitFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/Neuron.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/PropParameter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/RankNet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/Synapse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/model/TransferFunction.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/util/FileUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/util/MergeSorter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/util/MetricScorer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/local/ann/util/Sorter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/tree/singletree/C4_5Driver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/tree/singletree/DecisionTreeMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/tree/singletree/model/Rule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/tree/singletree/model/StatisticRecord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/math/FuncUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/measure/distance/Distance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/measure/distance/EuclideanDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/measure/distance/HammingDistance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/optimize/LBFGS$ExceptionWithIflag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/optimize/LBFGS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/util/HDFSUtils$RegexExcludePathFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/util/HDFSUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/util/InstanceGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/util/StringUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/conf/Config.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/conf/Constant.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/optimize/Grident.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/util/LineIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT-release.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/ireader/AppTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/Ranker.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/Ranker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/dto/DataPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/dto/ADataPoint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/dto/RankList.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/dto/RankList.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/Layer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/Layer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/ListNeuron.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/ListNeuron.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/Synapse.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/model/Synapse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/util/FileUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/FileUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/util/MergeSorter.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/util/MergeSorter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/util/MetricScorer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/util/MetricScorer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/util/Sorter.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ranklearn/ranknet/util/Sorter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/math/FuncUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/FuncUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/measure/distance/Distance.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/distance/Distance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/measure/distance/EuclideanDistance.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/distance/EuclideanDistance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/measure/distance/HammingDistance.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/distance/HammingDistance.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/util/HDFSUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/HDFSUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/util/InstanceGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/InstanceGenerator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/util/StringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/StringUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Config.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/conf/Config.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/conf/Constant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/util/LineIterator.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/util/LineIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/CostFunc$CostFuncMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DoubleVector.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/common/struct/DoubleVector.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/cluster/kmeans/KMeans$KMeansMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/cluster/kmeans/KMeans$KMeansMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/cluster/kmeans/KMeansCluster$KMeansClusterMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/cluster/kmeans/KMeansCluster$KMeansClusterMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour$KNNMap.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour$KNNMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LRpredictor$LRpredictorMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LRpredictor$LRpredictorMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightCombiner.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightCombiner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute$RowGradientComputeReducer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/feature/tfidf/TFIDFTransformer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/feature/tfidf/TFIDFTransformer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightMapper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightReducer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight$UpdateWeightReducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WeightHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/classifier/largelogisticregression/WeightHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT-release.tar.gz" afterPath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT-release.tar.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/machinelearn_toolbox-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Factory.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Method.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Method.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Trainer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec$Trainer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/nlp/word2vec/vec/Word2Vec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ireader/ml/optimize/optimizer.class" afterPath="$PROJECT_DIR$/target/classes/com/ireader/ml/optimize/optimizer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeans.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeans.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansCluster.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansCluster.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFTransformer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFTransformer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDInputFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDInputFormat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/model.properties" afterPath="$PROJECT_DIR$/resources/model.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/vec/Word2Vec.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/vec/Word2Vec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/machineLearnToolbox.iml" afterPath="$PROJECT_DIR$/machineLearnToolbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="machineLearnToolbox.iws" />
@@ -38,34 +284,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LargeLRDriver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java">
+      <file leaf-file-name="CNN.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3253012">
-              <caret line="252" column="42" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
               <folding>
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2136#2137#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CostFunc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java">
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/model.properties">
+      <file leaf-file-name="Ensemble.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Ensemble.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CNNLocalDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNNLocalDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dataset.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/Dataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.035433073">
+              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CART.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1216#1222#0" expanded="true" />
+                <element signature="e#2773#2781#0" expanded="true" />
+                <element signature="e#3362#3368#0" expanded="true" />
+                <element signature="e#3560#3584#0" expanded="true" />
+                <element signature="e#7600#7606#0" expanded="true" />
+                <element signature="e#10147#10156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DecisionTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="51" />
+              <folding>
+                <element signature="e#1089#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Matrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
+              <folding>
+                <element signature="e#5309#5310#0" expanded="true" />
+                <element signature="e#5366#5367#0" expanded="true" />
+                <element signature="e#8026#8184#0" expanded="true" />
+                <element signature="e#8183#8184#0" expanded="true" />
+                <element signature="e#15426#15577#0" expanded="true" />
+                <element signature="e#15576#15577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftMaxLayer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SoftMaxLayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +408,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,57 +426,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/ListNeuron.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/Layer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/ListNet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/RankNet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesTtrainData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Constant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/Trainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesTrainData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.conf" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.train" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.test" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NavieBayesConf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NavieBayesTrain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesPredict.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/SingleFileNameReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WholeFileInputFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrnce.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/Transformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/readme.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/C4_5Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/C4_5Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/StatisticRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/Rule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/DecisionTreeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/NodeStatisticInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Config.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/util/HDFSUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFgenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Grident.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Updator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDInputFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDataPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DataPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java" />
-        <option value="$PROJECT_DIR$/resources/model.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/bfs/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/EGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/local/GraphUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/rnn/CharText.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ireader/MatrixRandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/Activation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/rnn/LSTM/Cell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/bfs/TraverseGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/MoreIterations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/BaseDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/sssp/SSSP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/TringleRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/triangle/TringleRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/triangle/TriangleRecommender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/StatisticRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/NodeStaticInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/TestDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/StatisticRecord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Rule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/DTDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/NodeStaticInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Ensemble.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ireader/ml/CNN/TimedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/lr/costfunc/LRCostFunc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/BatchOptimizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/lbfgs/Lbfgs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/AssociationRules.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/FPTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/DC_FPTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DTPredict.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DecisionTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/Cost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/FeatureMaxMin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/UpdateLabel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/GBDT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustTrain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/HiddenLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/nlp/lda/LdaModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/hmm/local/HmmInference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SigmodLayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Tree.java" />
       </list>
     </option>
   </component>
@@ -151,6 +486,11 @@
         <option name="mavenHome" value="Bundled (Maven 3)" />
         <option name="workOffline" value="true" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -171,10 +511,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="34" />
-    <option name="width" value="1221" />
-    <option name="height" value="743" />
+    <option name="x" value="61" />
+    <option name="y" value="72" />
+    <option name="width" value="1223" />
+    <option name="height" value="653" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -189,7 +529,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -202,7 +542,6 @@
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,64 +573,12 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ireader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ireader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="word2vec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,14 +605,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ireader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="word2vec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +668,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="optimize" />
+              <option name="myItemId" value="fp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,78 +812,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ireader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="struct" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="machineLearnToolbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ireader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="classifier" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -643,7 +850,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NaiveBayes" />
+              <option name="myItemId" value="tree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -681,7 +888,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="largelogisticregression" />
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singletree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -711,7 +922,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ann" />
+              <option name="myItemId" value="ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singletree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,12 +952,185 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ireader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="singletree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ireader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ireader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cnn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ireader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machineLearnToolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ireader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -784,15 +1184,29 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.DoubleVector">
-    <configuration default="false" name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/ireader/algebra/matrix/multiply" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ireader.ml" />
+      <recent name="com.ireader" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SigmodLayer">
+    <configuration default="false" name="Heap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ireader.nlp.word2vec.util.*" />
+          <option name="PATTERN" value="com.ireader.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ireader.nlp.word2vec.util.Counter" />
+      <option name="MAIN_CLASS_NAME" value="com.ireader.util.Heap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -805,14 +1219,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Config" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MatrixRandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ireader.ml.conf.*" />
+          <option name="PATTERN" value="com.ireader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.conf.Config" />
+      <option name="MAIN_CLASS_NAME" value="com.ireader.MatrixRandTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -825,14 +1239,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="WeightHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CNNLocalDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ireader.ml.classifier.largelogisticregression.*" />
+          <option name="PATTERN" value="com.ireader.ml.classifier.nn.cnn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.classifier.largelogisticregression.WeightHelper" />
+      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.classifier.nn.cnn.CNNLocalDriver" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -845,14 +1259,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DataPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SigmodLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ireader.ml.common.struct.*" />
+          <option name="PATTERN" value="com.ireader.ml.classifier.nn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.common.struct.DataPoint" />
+      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.classifier.nn.SigmodLayer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -865,14 +1279,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="DoubleVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SoftMaxLayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.ireader.ml.common.struct.*" />
+          <option name="PATTERN" value="com.ireader.ml.classifier.nn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.common.struct.DoubleVector" />
+      <option name="MAIN_CLASS_NAME" value="com.ireader.ml.classifier.nn.SoftMaxLayer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -993,6 +1407,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/jieba-analysis-1.0.2.jar" />
       <envs />
       <method />
     </configuration>
@@ -1225,19 +1640,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Counter" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Config" />
-      <item index="2" class="java.lang.String" itemvalue="Application.WeightHelper" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DataPoint" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DoubleVector" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Heap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MatrixRandTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CNNLocalDriver" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SigmodLayer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SoftMaxLayer" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DoubleVector" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DataPoint" />
-        <item index="2" class="java.lang.String" itemvalue="Application.WeightHelper" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Config" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Counter" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SigmodLayer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SoftMaxLayer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CNNLocalDriver" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MatrixRandTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Heap" />
       </list>
     </recent_temporary>
   </component>
@@ -1259,30 +1674,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="34" width="1221" height="743" extended-state="0" />
+    <frame x="61" y="72" width="1223" height="653" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06966865" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7910959" sideWeight="0.5191164" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2479757" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21240442" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21640489" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33147115" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.48683092" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24620573" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22769754" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16082802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3118097" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61452514" sideWeight="0.4808836" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327451" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26455906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32178217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1305,7 +1729,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ireader/util/ConcurenceRunner.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/softmax/LocalSoftmax.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/util/Tokenizer.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/LossFunction.java</url>
+          <line>3</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1314,410 +1764,433 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansCluster.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
+          <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/RandomClusterGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/lbfgs/Lbfgs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <caret line="102" column="85" selection-start-line="102" selection-start-column="85" selection-end-line="102" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/knnclassifier/Instance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/Record.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/local/ann/model/RankNet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="165" column="42" selection-start-line="165" selection-start-column="42" selection-end-line="165" selection-end-column="42" />
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/development/jdk1.7.0_60/jre/lib/rt.jar!/java/util/Properties.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/AssociationRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="194" column="45" selection-start-line="194" selection-start-column="45" selection-end-line="194" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/local/FPTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/fp/mr/DC_FPTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#8983#9005#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/UpdateLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/FeatureMaxMin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DTPredict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/Cost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="54" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustPredict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/Trainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesTrainData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.train">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.test">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesPredict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/Transformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WordConcurrentTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#779#780#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/C4_5Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/StatisticRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/Rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/DecisionTreeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/model/NodeStatisticInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/conf/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding>
-            <element signature="e#1227#1228#0" expanded="false" />
-            <element signature="e#1282#1283#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/common/util/HDFSUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="195" column="51" selection-start-line="195" selection-start-column="51" selection-end-line="195" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFgenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="265" column="1" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/tfidf/TFIDFTransformer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#805#806#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/knnclassifier/KNearestNeighbour.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/vec/Word2Vec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/nlp/word2vec/util/LineIterator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjust.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Grident.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustMR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/Updator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/click_adjust/ClickAdjustTrain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/optimize/optimizer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/HiddenLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1280653">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/WholeFileInputFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/KMeansDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/feature/wordconcurrence/SingleFileNameReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/cluster/kmeans/RandomClusterGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NBayes.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0373444">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesConf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WDataPoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="81" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="81" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/NaiveBayes/NaiveBayesPredict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/nlp/lda/Documents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/nlp/lda/LdaModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="312" column="5" selection-start-line="312" selection-start-column="5" selection-end-line="312" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/hmm/local/HmmLearn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/hmm/local/HmmInference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/MoreIterations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/MatMulDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/matrix/multiply/MatrixMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="34" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/GBDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3862#3870#0" expanded="false" />
+            <element signature="e#10248#10256#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/graph/mr/triangle/TriangleRecommender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/graph/local/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/Activation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SigmodLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DataPoint.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="864" column="46" selection-start-line="864" selection-start-column="46" selection-end-line="864" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/common/struct/DoubleVector.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/CART.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="81" selection-start-line="100" selection-start-column="81" selection-end-line="100" selection-end-column="81" />
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#342#343#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#1372#1373#0" expanded="false" />
-            <element signature="e#1400#1401#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1216#1222#0" expanded="true" />
+            <element signature="e#2773#2781#0" expanded="true" />
+            <element signature="e#3362#3368#0" expanded="true" />
+            <element signature="e#3560#3584#0" expanded="true" />
+            <element signature="e#7600#7606#0" expanded="true" />
+            <element signature="e#10147#10156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/UpdateWeight.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/mr/DecisionTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/DistributeColum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="60" selection-start-line="78" selection-start-column="60" selection-end-line="78" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="215" column="73" selection-start-line="215" selection-start-column="73" selection-end-line="215" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/WeightHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="255" column="0" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="51" />
           <folding>
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#2612#2620#0" expanded="true" />
-            <element signature="e#3657#3665#0" expanded="true" />
-            <element signature="e#3729#3745#0" expanded="true" />
-            <element signature="e#5194#5202#0" expanded="true" />
-            <element signature="e#5266#5282#0" expanded="true" />
+            <element signature="e#1089#1095#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/RowGradientCompute.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Rule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LRpredictor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="92" selection-start-line="52" selection-start-column="92" selection-end-line="52" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/model.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/CostFunc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/largelogisticregression/LargeLRDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3253012">
-          <caret line="252" column="42" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding>
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#5309#5310#0" expanded="true" />
+            <element signature="e#5366#5367#0" expanded="true" />
+            <element signature="e#8026#8184#0" expanded="true" />
+            <element signature="e#8183#8184#0" expanded="true" />
+            <element signature="e#15426#15577#0" expanded="true" />
+            <element signature="e#15576#15577#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/SoftMaxLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/tree/singletree/dto/Ensemble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNNLocalDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/CNN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ireader/ml/classifier/nn/cnn/Dataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.035433073">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,10 +2272,10 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean" />
     <option value="package" />
     <option value="compile" />
     <option value="package -e" />
-    <option value="clean" />
     <option value="pacakge" />
   </component>
 </project>

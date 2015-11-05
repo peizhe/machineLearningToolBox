@@ -1,7 +1,7 @@
 package com.ireader.ml.cluster.kmeans;
 
-import com.ireader.ml.common.measure.distance.Distance;
-import com.ireader.ml.common.measure.distance.EuclideanDistance;
+import com.ireader.util.distance.Distance;
+import com.ireader.util.distance.EuclideanDistance;
 import com.ireader.ml.common.struct.DoubleVector;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileStatus;

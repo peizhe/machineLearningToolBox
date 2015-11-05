@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="true" />
+    <inspection_tool class="LoggerInitializedWithForeignClass" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="loggerClassName" value="org.apache.log4j.Logger,org.slf4j.LoggerFactory,org.apache.commons.logging.LogFactory,java.util.logging.Logger" />
+      <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.numpy" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.open" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.float" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.map" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.nonzero" />
+          <option value="numpy" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.regLeaf" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.regErr" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.set" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.len" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.mean" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.range" />
+          <option value="com.ireader.ml.classifier.tree.singletree.CART.isTree" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

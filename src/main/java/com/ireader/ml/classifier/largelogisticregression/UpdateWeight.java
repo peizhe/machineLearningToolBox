@@ -1,7 +1,7 @@
 package com.ireader.ml.classifier.largelogisticregression;
 
-import com.ireader.ml.common.math.FuncUtil;
-import com.ireader.ml.common.util.StringUtil;
+import com.ireader.util.FuncUtil;
+import com.ireader.util.StringUtil;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;

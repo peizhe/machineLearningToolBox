@@ -1,9 +1,8 @@
 package com.ireader.ml.classifier.largelogisticregression;
 
 
-import com.ireader.ml.Driver;
 import com.ireader.ml.classifier.Trainer;
-import com.ireader.ml.conf.Config;
+import com.ireader.conf.Config;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileStatus;
@@ -238,7 +237,7 @@ public class LargeLRDriver extends Trainer {
             if(((i % this.validateStep) == 0) && i!=0) {
 
                 System.out.println("-------------------------------------------------------------");
-                System.out.println("Execute an cost validation ");
+                System.out.println("Execute an Cost validation ");
                 System.out.println("-------------------------------------------------------------");
 
                 success |= runJob(conf,

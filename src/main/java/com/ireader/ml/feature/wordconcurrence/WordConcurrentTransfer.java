@@ -1,6 +1,6 @@
 package com.ireader.ml.feature.wordconcurrence;
 
-import com.ireader.ml.conf.Config;
+import com.ireader.conf.Config;
 import com.ireader.ml.feature.Transformer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.BytesWritable;

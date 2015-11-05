@@ -1,6 +1,6 @@
 package com.ireader.ml.classifier.knnclassifier;
 
-import com.ireader.ml.common.measure.distance.EuclideanDistance;
+import com.ireader.util.distance.EuclideanDistance;
 import com.ireader.ml.common.struct.ListWritable;
 import org.apache.hadoop.filecache.DistributedCache;
 import org.apache.hadoop.fs.Path;
